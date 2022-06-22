@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Project</title>
+    <style>
+      table {
+        border: 1px solid #000;
+        padding: 10px;
+        border-spacing: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 7px;
+      }
+      .struct {
+        border-spacing: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Table
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Laqab</th>
+        <th>Job</th>
+      </tr>
+      <tr>
+        <td rowspan="2" colspan="2">Kiyan 20</td>
+        <td>Lorem, ipsum.</td>
+        <td>Web Dev</td>
+      </tr>
+      <tr>
+        <td colspan="2">Teach + Web</td>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>20</td>
+        <td>Lorem, ipsum.</td>
+        <td>Web Dev</td>
+      </tr>
+    </table>
+    <hr />
+
+    <table class="">
+      <tr>
+        <td colspan="2">Header</td>
+      </tr>
+      <tr>
+        <td colspan="2">Nebu Bar</td>
+      </tr>
+      <tr>
+        <td>Main Content</td>
+        <td>Sidebar</td>
+      </tr>
+      <tr>
+        <td colspan="2">footer</td>
+      </tr>
+      <tr>
+        <td colspan="2">Copyright</td>
+      </tr>
+    </table>
+  </body>
+</html>
